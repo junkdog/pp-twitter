@@ -16,10 +16,8 @@
     <param name="EditNewState_saveAndView">false</param>
     <param name="templateIcon">bookmark.png</param>
     <param name="renderTemplateIconInSelect">true</param>
-    <editor contextName="orchid_TOCENTRY">example.widget.OContentListEntryBasePolicyWidget
-		</editor>
-    <viewer contextName="orchid_TOCENTRY">
-			example.widget.OContentListEntryBasePolicyWidget</viewer>
+    <editor contextName="orchid_TOCENTRY">com.polopoly.siteengine.standard.contentlist.OContentListEntryBasePolicyWidget</editor>
+    <viewer contextName="orchid_TOCENTRY">com.polopoly.siteengine.standard.contentlist.OContentListEntryBasePolicyWidget</viewer>
     <field name="name" input-template="p.ContentName" label="cm.label.Name"/>
     <field name="size" input-template="p.TextInput" label="Number of items to display">
       <policy>com.polopoly.cm.app.policy.NumberInputPolicy</policy>
