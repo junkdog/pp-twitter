@@ -28,19 +28,7 @@
     </field>
     <field name="twitterHash" input-template="p.TextInput" label="Twitter Hash"/>
     <output-templates mode="www">
-      <id>training.TwitterElement.ot</id>
+      <id>com.atex.plugins.twitter.TwitterElement.ot</id>
     </output-templates>
   </input-template>
-  <output-template name="training.TwitterElement.ot" input-template="p.siteengine.ElementOutputTemplate">
-    <content-xml>
-      <component group="output/modelKeyMode" name="selected">no-cache</component>
-      <contentref group="output/renderer" name="selected">
-        <contentid>
-          <externalid>p.siteengine.VelocityFileRenderer</externalid>
-        </contentid>
-      </contentref>
-      <component group="output/renderer/selected/defaultVelocityViewFileName" name="value">
-				/WEB-INF/velocity/www/twitterelement.vm</component>
-    </content-xml>
-  </output-template>
 </template-definition>
