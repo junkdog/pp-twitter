@@ -123,6 +123,7 @@
           resources will be imported to the files content. Which version to use runtime is
           specified in the _webresources manifest.
        -->
+      <!-- 
       <plugin>
         <groupId>net.alchim31.maven</groupId>
         <artifactId>yuicompressor-maven-plugin</artifactId>
@@ -153,6 +154,7 @@
           <outputDirectory>${project.build.directory}/generated-contentfiles</outputDirectory>
         </configuration>
       </plugin>
+       -->
       <plugin>
         <artifactId>p-maven-plugin</artifactId>
         <groupId>com.polopoly.extensions</groupId>

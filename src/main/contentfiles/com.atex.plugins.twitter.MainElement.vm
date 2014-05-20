@@ -1,5 +1,0 @@
-## This file is the Velocity output template. A Polopoly output template
-## will be automatically created by the plugin framework.
-<div class="twitter">
-This is an example plugin element. Content name is <em>$content.name</em>.
-</div>
