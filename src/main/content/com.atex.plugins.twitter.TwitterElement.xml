@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <template-definition xmlns="http://www.polopoly.com/polopoly/cm/app/xml" version="1.0">
-  <input-template name="com.atex.plugins.twitter.TwitterElement.xml" label="Twitter Element">
+  <input-template name="com.atex.plugins.twitter.TwitterElement" label="Twitter Element">
     <policy>com.atex.plugins.baseline.policy.BaselinePolicy</policy>
     <editor>com.polopoly.cm.app.widget.OTopPolicyWidget</editor>
     <viewer>com.polopoly.cm.app.widget.OTopPolicyWidget</viewer>
